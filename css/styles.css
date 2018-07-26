@@ -34,6 +34,11 @@ p{
   background: rgb(36,151,163);
   padding-top: 40px;
   padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.left-jumbo{
+  padding-top: 100px;
 }
 /*Footer*/
 .footer {
@@ -64,6 +69,19 @@ p{
 }
 .navbar-brand h1:hover{
   color:#c72c72;
+}
+.astronaut{
+  background-color: #030116;
+  background-image: url("../img/astronaut.png");
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  padding-bottom: 80px;
+}
+.second{
+  margin-top: 400px;
+  margin-bottom: 100px;
 }
 /*sm Screen*/
 @media (min-width:768px) {
